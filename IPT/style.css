@@ -1,0 +1,102 @@
+body {
+    background-image: url("pshh.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+  
+  color: rgb(19, 55, 70);
+  border: 11px solid #3e4644;
+  border-style: double;
+  padding: 5px;
+}
+
+h2 {
+  padding: 0.2px;
+}
+
+.button { 
+  display: inline-flex; 
+  height: 50px;
+  padding: 10;
+  background: #23b994;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #3e4644;
+}
+
+.button:active {
+  background: #006e58;
+}
+
+.button__text,
+.button__icon {
+   display: inline-flex;
+   align-items: center;
+   padding: 0 10px;
+   color: #fff;
+   height: 100%;
+}
+
+.button__icon {
+  font-size: 1.7em;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+div { 
+  background-color: #00000080;
+  color: rgb(222, 230, 229);
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px;
+  margin:10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 10%;
+}
+
+.row:after {
+  content: "This is my FAVORITE, in this page you may see the list of social media platform that I usually and frequently use at any time such as INSTAGRAM, REDDIT, TUMBLR, GOOGLE, AND GRAMMARLY. For me, they are necessary for the reason that it do help me for doing my academics works and developing my knowledge at any aspects.Try to check themk out as well if you want or if you're interested. These apps/websites might also be helpful for you. ";
+  display: table;
+  clear: both;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 100%;
+}
+
+.right {
+  width: 67%;
+}
